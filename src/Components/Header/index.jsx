@@ -1,19 +1,21 @@
-import {Container, Logo } from "./style";
-import {FaAlignJustify} from "react-icons/fa"
+import { Container, Hamburg, Logo } from "./style";
+import menu from "../../assets/img/Menu.svg";
+import logo from "../../assets/img/hexagonal.svg";
+import compra from "../../assets/img/Vector-compra.svg"
+ 
+export default function Header() {
+  return (
+    <Container>
+      <Hamburg className="img-hamburg">
+        <img src={menu} alt="" />
+      </Hamburg>
 
-export default function Header(){
-    return(
-        <Container>
-          <img src={FaAlignJustify} alt="hamburgue" /> 
-          
-          <Logo>
-            <img src="../../assets/img/Polygon.png" alt="hexagonal" />
-            <h1>food explorer</h1>
-          </Logo>
+      <Logo>
+        <img src={logo} alt="1" />
+        <h1>food explorer</h1>
+      </Logo>
 
-          <img src="../../assets/img/restaurante.png" alt="" />
-        
-        </Container>
-    )
+      <img src={compra} alt="compra" />
+    </Container>
+  );
 }
-

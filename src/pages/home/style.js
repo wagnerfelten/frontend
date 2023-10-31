@@ -32,6 +32,6 @@ export const Content = styled.div`
 `;
 
 export const CardsFood = styled.section`
-
+    
 
 `;

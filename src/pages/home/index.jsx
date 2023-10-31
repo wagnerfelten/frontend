@@ -2,6 +2,7 @@ import { Container, CardContent, Content, CardsFood } from "./style";
 
 import comidas from "../../assets/img/comidas.svg";
 import Header from "../../Components/Header";
+import Card from "../../Components/Card";
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
         </CardContent>
 
         <CardsFood>
-          
+          <Card title="Salada Ravanello" />
         </CardsFood>
       </Container>
     </>

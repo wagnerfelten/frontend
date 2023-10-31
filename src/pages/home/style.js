@@ -32,6 +32,12 @@ export const Content = styled.div`
 `;
 
 export const CardsFood = styled.section`
+    margin-top: 80px;
     
+    > h2{
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 20px;
+    }
 
 `;

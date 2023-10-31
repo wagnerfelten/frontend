@@ -18,6 +18,7 @@ function Home() {
         </CardContent>
 
         <CardsFood>
+          <h2>Refeições</h2>
           <Card title="Salada Ravanello" />
         </CardsFood>
       </Container>

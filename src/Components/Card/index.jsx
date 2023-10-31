@@ -1,17 +1,24 @@
-import {Container} from "./style.js";
+import { Container, Content} from "./style.js";
 
-export default function Card({title}){
-    return(
-        <Container>
-            <img src="" alt="" />
+import Button from "../../Components/Button";
+import prato from "../../assets/img/comidaPrato.png";
+import coracao from "../../assets/img/coração.svg";
 
-            <h3>{title}</h3>
-            <p>R$ 49,97</p>
 
-            <p>- 01 +</p>
+export default function Card({ title }) {
+  return (
+    <Container>
+        <img src={coracao} alt="" />
+      <Content>
+        <img src={prato} alt="" />
 
-            <button>Incluir</button>
-        </Container>
-    );
+        <h3>{title}</h3>
+        <h4>R$ 49,97</h4>
+
+        <p>- 01 +</p>
+
+        <Button title="Incluir"/>    
+      </Content>
+    </Container>
+  );
 }
-

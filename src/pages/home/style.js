@@ -41,3 +41,9 @@ export const CardsFood = styled.section`
     }
 
 `;
+
+export const CardDisplayFlex = styled.div`
+  display: flex;
+  flex-direction: row;
+
+`;

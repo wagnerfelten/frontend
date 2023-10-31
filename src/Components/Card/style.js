@@ -7,7 +7,8 @@ export const Container = styled.section`
   margin-top: 24px;
   border-radius: 10px;
   background: #00070a;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   > img{
     margin-left: 80%;
@@ -30,6 +31,7 @@ export const Content = styled.div`
   > h3,
   p {
     margin-bottom: 10px;
+    font-size: 14px;
   }
 
   > h4 {

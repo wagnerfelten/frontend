@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './pages/dish';
+import Home from './pages/menu';
 import './style/index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
